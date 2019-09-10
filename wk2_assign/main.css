@@ -1,31 +1,48 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
 /*Default- Mobile Mode*/
 
 body{
     margin:0px;
+    background-color: #fef8ee;
 }
 
 nav {
     background-color: #4f854d;
     padding: 20px 10px;
+
 }
 
 nav img{
-    width: 105px;
+    width: 95px;
     display: inherit;
     margin: auto;
 }
 
+nav h1{
+    color: #192a1c;
+    text-align: center;
+    font-family:'Homemade Apple', cursive;
+    display: block;
+}
+
 nav ul{
+    
     list-style: none;
     padding-left: 0px;
-    margin: 0px;
-    display: inline-block;
+    margin: auto;
+    display: block;
+    text-align: center;
 }
 
 nav li {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #1b5f14;
+    border-radius: 5px;
     padding: 10px 0px;
     margin: 10px;
+    font-family:  'Manjari', sans-serif;
 }
 
 nav li :first-child {
@@ -34,8 +51,7 @@ nav li :first-child {
 
 nav ul a {
     text-decoration: none;
-    color: white;
-    text-transform: uppercase;
+    color: #fef8ee;
 }
 
 /*Tablet Mode*/
@@ -43,22 +59,39 @@ nav ul a {
 @media(min-width:540px){
     
     nav{
-        padding: 0px 10px;
+        
     }
 
     nav img{
-        display: inline-block;
+        display:block;
+        width: 85px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    nav h1{
+        color: #192a1c;
+        font-family:'Homemade Apple', cursive;
+        display:block;
+        margin: 20px 0px;
+    }
+    
+
+    #nav-brdr{
+        border: 5px double #1b5f14;
+        border-radius: 5px;
     }
 
     nav ul{
         text-align: center;
+        display: block;
     }
 
     nav ul li {
         display: inline-block;
         padding-bottom: 5px;
         border-bottom: 0px;
-        margin: 10px 20px;
+        margin: 5px 10px;
     }
 
 /*Desktop Mode*/
@@ -71,17 +104,33 @@ nav ul a {
 
     nav img{
         display: inline-block;
+        width: 85px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    nav h1{
+        color: #192a1c;
+        font-family:'Homemade Apple', cursive;
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 95px;
+    }
+
+    #nav-brdr{
+        border: none;
     }
 
     nav ul{
-        text-align: center;
+        display: inline-block;
+        text-align: right;
     }
 
     nav ul li {
         display: inline-block;
         padding-bottom: 5px;
         border-bottom: 0px;
-        margin: 10px 20px;
+        margin: 5px 10px;
     }
 
     
