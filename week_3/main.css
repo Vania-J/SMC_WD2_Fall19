@@ -1,0 +1,126 @@
+@import url("colors.css");
+
+/*Default- PhoneMode*/
+
+body{
+    margin:0px;
+}
+
+header{
+    background-color: lightcyan;
+}
+
+header input#toggler{
+    display: none;
+}
+
+header label img{
+    width: 40px;
+    height: auto;
+    margin: 10px;
+    margin: 17px 17px 0px;
+}
+
+input#toggler:checked + nav{
+    display: block;
+}
+
+nav {
+    display: none;
+    padding: 0px 10px 20px;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+nav li {
+    border-bottom: 1px solid #212529;
+    padding: 10px 0px;
+    margin: 10px;
+}
+
+nav li :first-child {
+    margin-top: 0px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #212529;
+    text-transform: uppercase;
+}
+
+/*-----------------------------Main-------------------------*/
+.floater-section{
+    float: left;
+    min-height: 300px;
+    width: 100%;
+}
+
+.container::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/*Tablet Mode*/
+
+@media(min-width:540px){
+    
+    nav{
+        padding: 0px 10px;
+    }
+
+    /*---------Main-------------*/
+    .w-lg-25{
+        width: 25%;
+    }
+
+    .w-md-50{
+        width: 50%;
+    }
+
+    .w-md-33{
+        width: 33%;
+    }
+
+    .w-lg-100{
+        width: 100%;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding-bottom: 5px;
+        border-bottom: 0px;
+        margin: 10px 20px;
+    }
+
+    @media(min-width:800px){
+    
+        /*---------Main-------------*/
+    
+        .w-lg-25{
+            width: 25%;
+        }
+
+        .w-md-33{
+            width: 33%;
+        }
+
+        .w-md-50{
+            width: 50%;
+        }
+    
+        .w-lg-100{
+            width: 100%;
+        }
+
+    
+}
+
