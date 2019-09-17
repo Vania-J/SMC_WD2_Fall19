@@ -115,6 +115,10 @@ main div p{
     background-color: #893c40;
 }
 
+.beige{
+    background-color: beige;
+}
+
 /*---------------- Tablet View -------------------*/
 
 
@@ -126,6 +130,10 @@ main div p{
 
     input#toggler:checked + nav{
         display:  block;
+    }
+
+    header h1{
+        font-size:45px;
     }
 
     nav ul li {
@@ -155,8 +163,21 @@ main div p{
         margin-top: 30px;
     }
 
+    main div h1{
+        text-align: center;
+        margin: auto;
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+        color: #893c40;
+        padding: 30px 0px;
+    }
+
     div{
         max-height: 310px;
+    }
+
+    .ab-sec-1{
+        height: 200px;
     }
 
     .width-md-50 {
@@ -167,18 +188,40 @@ main div p{
         width: 33%;
     }
 
-    .height-300{
+    .height-md-300{
         height: 300px;
     }
 
+    .mutedred{
+        background-color: #893c40;
+    }
+    
+    .hc-bg{
+        color:  #baa7a7;
+
+    }
+
+   
 } 
 
 /*---------------- Desktop View -------------------*/
 
 @media (min-width: 800px){
+    header h1{
+    font-size: 45px;
+    }
 
     main{
         margin-top: 30px;
+    }
+
+    main div h1{
+        text-align: center;
+        margin: auto;
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+        color: #893c40;
+        padding: 30px 0px;
     }
 
     div{
@@ -223,4 +266,15 @@ main div p{
     .height-300{
         height: 300px;
     }
+
+
+    .mutedred{
+        background-color: #893c40;
+    }
+
+    .hc-bg{
+        color:  #baa7a7;
+
+    }
+    
 }

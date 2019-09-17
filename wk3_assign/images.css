@@ -5,8 +5,17 @@ header img {
 main img{
     padding: 0px;
     margin: 0px;
+    width: 100%;
 }
 
-img{
-    width: 100%;
+.b-aerial-view{
+    height: 310px;
+}
+
+.height-lg-300{
+    height: 300px;
+}
+
+.ab-img{
+    height: 300px;
 }
