@@ -1,0 +1,12 @@
+header img {
+    width: 55px;
+}
+
+main img{
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    width: 100%;
+}
