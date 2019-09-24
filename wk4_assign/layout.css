@@ -5,7 +5,7 @@ body{
 
 .floater-section{
     float: left;
-    min-height: 300px;
+    min-height: 580px;
     width: 100%;
 }
 
@@ -26,12 +26,26 @@ img{
 /*-----------MEDIUM SIZED SCREENS--------------*/
 @media(min-width:540px){
 
+header label {
+    display: none
+    }
+    
+    nav{
+    display: block
+    } 
+    
+    nav,
+    input#toggler+nav{
+    display: block
+    }
+    
+
     .width-md-25{
         width: 25%;
     }
 
     .width-md-33{
-        width: 33.333%;
+        width: 33%;
     }
 
     .width-md-50{
@@ -54,6 +68,19 @@ img{
 
 /*-----------LARGE SIZED SCREENS--------------*/
 @media(min-width:800px){
+
+header label {
+    display: none
+    }
+    
+    nav{
+    display: block
+    } 
+    
+    nav,
+    input#toggler+nav{
+    display: block
+    }
 
     .width-lg-25{
         width: 25%;
