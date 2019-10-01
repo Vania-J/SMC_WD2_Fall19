@@ -47,14 +47,13 @@ nav {
 nav ul{
     list-style: none;
     padding-right: 40px;
+    padding-left: 72px;
     margin: 0px;
 }
 
 nav li {
-    padding: 10px 0px;
     margin: 10px;
     font-size: 18px;
-    padding-top: 40px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
@@ -80,15 +79,11 @@ nav a.current{
     text-decoration: underline;
 }
 
-
-.current{
-
-
-}
-
 .floater-section{
     border-bottom: darkgreen solid 3.5px;
+    padding: 20px;
 }
+
 
 #no-border{
     border:none; 
@@ -97,17 +92,44 @@ nav a.current{
 h3{
     font-family: 'Raleway', sans-serif;
     margin-bottom: -15px;
-    font-weight: 600
+    font-weight: 800;
+    font-size: 20px;
 }
 
 h4{
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 p{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
+    width: 300px;
+    display: inline-block;
+}
+
+.d-container img{
+    padding-left: 20px;
+    padding-right:20px;
+    display: inline-block;
+
+}
+
+.d-sec1 h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 3px solid #8f91a2;
+}
+
+.d-sec2{
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.d-sec2 h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 40px;
 }
 
 
@@ -120,6 +142,12 @@ p{
 
     nav ul li{
         display: inline-block;
+        padding: 10px 0px;
+        padding-top: 40px;
+    }
+
+    .container{
+        margin:auto;
     }
 
     .floater-section{
@@ -143,6 +171,8 @@ p{
 
     nav ul li{
         display: inline-block;
+        padding: 10px 0px;
+        padding-top: 40px;
     }
 
     .floater-section{
@@ -157,6 +187,10 @@ p{
     .floater-section img{
         margin: auto;
 
+    }
+
+    .container{
+        margin:auto;
     }
 
 }

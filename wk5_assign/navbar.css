@@ -1,0 +1,32 @@
+
+
+nav ul a {
+    text-decoration: none;
+    color: #212529;
+    line-height: 40px; /*for vertical centering */
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+@media(min-width: 540px){
+nav ul a {
+        margin: 10px 20px;
+    }
+
+    header label {
+        display: none;
+    }
+
+    nav ul {
+        text-align: right;
+        text-decoration: none;
+    }
+
+    nav {
+        display: block;
+        padding: 0px 10px;
+    }
+} 

@@ -1,0 +1,106 @@
+@import "colors.css";
+@import "layout.css";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+
+body{
+background-color: ;
+}
+
+#main-container{
+        border: 9px double green;
+        padding: 50px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        background-color: #feeecd;
+}
+
+.container h1{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+}
+
+.container h3{
+    font-family: 'Lato', sans-serif;
+ 
+}
+
+.container p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+#sec_1 h2{
+    transform: translate(20px);
+    font-family: 'Berkshire Swash', cursive;
+    padding-left: 2px;
+}
+
+#sec_2{
+    color: black;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 29px;
+    width: 300px;
+    position: absolute;
+    top: 98%;
+    left: 49%;
+    padding: 19px;
+    background-color: #acda89;
+    text-align: center;
+
+}
+
+#sec_3{
+
+    color: black;
+    width: 300px;
+    height: 523px;
+    margin: 550px 0 0 -19px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    padding: 20px;
+    background-color: #acda89;
+}
+
+#sec_3 img{
+    margin: 475px 0 0 -19px;
+    position: absolute;
+    top: -40%;
+    left: 12%;
+    padding: 20px;  
+}
+
+#sec4 form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.center-table {
+    display: table;
+    height: 250px;
+    background: white;
+    width: 240px;
+    margin: 20px;
+  }
+  .center-table p {
+    display: table-cell;
+    margin: 0;
+    background: #e9a351;
+    color: white;
+    padding: 20px;
+    border: 10px solid #feeecd;
+    vertical-align: middle;
+  } 
+  
+
+/* block element with known height */
+.pos-relative {
+    position: relative;
+}
+

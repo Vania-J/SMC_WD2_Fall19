@@ -23,6 +23,14 @@ img{
     padding: 15px;
 }
 
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
 /*-----------MEDIUM SIZED SCREENS--------------*/
 @media(min-width:540px){
 
@@ -45,11 +53,11 @@ header label {
     }
 
     .width-md-33{
-        width: 33%;
+        width: 27.9%;
     }
 
     .width-md-50{
-        width: 50%;
+        width: 47%;
     }
 
     .width-md-66{
@@ -87,7 +95,7 @@ header label {
     }
 
     .width-lg-33{
-        width: 33.333%;
+        width: width: 27.9s%;
     }
 
     .width-lg-50{

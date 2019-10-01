@@ -16,31 +16,23 @@
     background-color: transparent;
 }
 
-
-/*----------Persona 1-------------*/
-
-.lightblue{
-    background-color: #dcedff;
+.orange1{
+    background-color: #d68037;
 }
 
-.blue{
-    background-color: #d1d1d1
+.orange2{
+   background-color: #e9a351;
 }
 
-.bluegrey{
-    background-color: #8f91a2;
+.orange3{
+    background-color: #fabe5a;
 }
 
-.grey{
-    background-color: #505a5b;
-}
 
-.darkgrey{
-    background-color: #343f3e;
-}
+
 
   
-/*----------Persona 2-------------*/
+
 
 .sand{
     background-color: #edd8a1
@@ -59,11 +51,9 @@
 }
 
 .green{
-    background-color: #b1d691;
+    background-color: #acda89;
 }
 
-
-/*----------Persona 3-------------*/
 
 .lightsepia{
     background-color: #fff8e8;
@@ -78,6 +68,8 @@
 }
 
 .darkred{
-    background-color: #960c23;
+    background-color: /* #960c23*/ #981111;
+}
+
 }
 
