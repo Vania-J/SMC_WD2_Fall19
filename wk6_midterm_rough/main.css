@@ -373,3 +373,68 @@ iframe{
 }
 /*-----------------LOCATION END---------------------------------------------------------*/
 
+/*-----------------CONTACT BEGINNING---------------------------------------------------------*/
+
+#contact-body {
+    /* The image used */
+    background-image: url("colorful-veggies.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+body {
+    font-family:'Asap', sans-serif;
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e9784b;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #439b91;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#439b91;
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color:#f3f0ed;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.form-container h3{
+    text-align: center;
+}
+
+
+/*-----------------CONTACT END---------------------------------------------------------*/
+
+
+
+
+
+
