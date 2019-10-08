@@ -207,3 +207,147 @@ footer ul img{
 }
 
 /*-----------------HOME END---------------------------------------------------------*/
+
+/*-----------------MENU BEGINNING---------------------------------------------------------*/
+h1{
+    text-align: center;
+    font-family: 'Grenze', serif;
+    font-size: 40px;
+    color: #187d71;
+}
+
+h2{
+    font-family: 'Asap', sans-serif;
+    font-size: 27px;
+}
+
+h3{
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+}
+
+.p-15{
+    margin: 15px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    font-family: 'Asap', sans-serif;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #56b8ac;
+    color: white;
+    text-align: center;
+  }
+
+.item-card{
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,.18);
+    height:474px;
+    width:291px;
+    vertical-align: middle;
+    margin: 20px;
+    padding: 20px;
+}
+
+.item-card img{
+    width: 100%;
+    height: 240px;
+    padding: 0px;
+}
+
+.item-card p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+.dropbtn {
+    background-color: #56b8ac;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    font-family: 'Asap', sans-serif;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .dropdown {
+    position: relative;
+    float: left;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left:0;
+  }
+  
+  .dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Asap', sans-serif;
+  }
+  
+  .dropdown-content li:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #439b91;
+  }
+
+  .dropbtn img{
+      width: 20%;   
+      height: auto;
+  }
+
+  .item-card button a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+#dd-gif{
+    height: auto;
+}
+
+.item-card .button{
+    background-color: #56b8ac;
+}
+
+@media(min-width: 540px) {
+    table{
+        display: table;
+    }
+}
+
+@media(min-width: 800px) {
+    table{
+        display: table;
+    }
+}
+
+
+/*-----------------MENU END---------------------------------------------------------*/
+
