@@ -351,3 +351,25 @@ table {
 
 /*-----------------MENU END---------------------------------------------------------*/
 
+/*-----------------LOCATION BEGINNING---------------------------------------------------------*/
+
+.loc-content p,h1,h2{
+    margin-left: 20px;
+}
+
+iframe{
+    margin-top: 20px;
+    margin-left: 20px;                      
+    width: 400px;
+    height: 300px;
+}
+
+@media(min-width: 540px) {
+    iframe{
+        width:600px;
+        height:450px;
+    }
+
+}
+/*-----------------LOCATION END---------------------------------------------------------*/
+
