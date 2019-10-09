@@ -42,6 +42,8 @@ nav {
     background-color:
         /*#fc6324*/
         #e9784b;
+    z-index: 100;
+    position: relative;
 }
 
 input#toggler:checked+nav {
