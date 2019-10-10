@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+}
+
+#brand_logo {
+    width: 120px;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    margin-top: 0px;
+    display: block;
+
+}
+
+#dd_logo {
+    width: 40px;
+    height: auto;
+    display: inline-block;
+}
+
+#lo_icon {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+header input#toggler {
+    display: none;
+}
+
+header label img {
+    width: 40px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}
+
+nav {
+    padding: 20px 10px;
+    display: none;
+    background-color:
+        /*#fc6324*/
+        #e9784b;
+    z-index: 100;
+    position: relative;
+}
+
+input#toggler:checked+nav {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+nav li {
+    padding: 10px 0px;
+    margin: 10px;
+    font-family: 'Grenze', serif;
+    font-size: 23px;
+}
+
+nav li:first-child {
+    margin-top: 0px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    /*for vertical centering */
+}
+
+nav a:hover {
+    color: rgb(128, 67, 60);
+}
+
+
+nav a.current{
+    text-decoration: underline;
+}
+
+
+
+@media(min-width: 540px) {
+    nav ul li {
+        display: inline-block;
+        padding-bottom: 5px;
+        border-bottom: 0px;
+        margin: 10px 20px;
+    }
+
+    header label {
+        display: none;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+        padding: 0px 10px;
+    }
+
+    #brand_logo{
+        margin-bottom: 20px;
+        width: 150px;
+    }
+
+}
