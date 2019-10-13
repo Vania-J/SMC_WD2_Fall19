@@ -41,6 +41,11 @@ header {
     padding-top: 30px;
 }
 
+.block{
+    display: block;
+    background-color: white;
+}
+
 #hm-container h1 {
     text-align: center;
     color: #fef0d7;
@@ -399,7 +404,7 @@ input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #e9784b;
-  border-radius: 15px;
+  border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
