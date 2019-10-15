@@ -37,11 +37,11 @@ body {
     position: relative;
 }
 
-header {
+.p-header {
     padding-top: 30px;
 }
 
-.p-10{
+.hm-header {
     padding-top: 10px;
 }
 
@@ -158,6 +158,9 @@ footer ul img {
 
 
 @media(min-width: 540px) {
+    .hm-header {
+        padding-top: 0px;
+    }
 
     #hm-card{
         width: 310px;
@@ -169,7 +172,21 @@ footer ul img {
 
 }
 
-@media(min-width: 740px) {
+@media(min-width: 730px) {
+    .hm-header {
+        padding-top: 0px;
+    }
+
+    #hm-content-buttons{
+        margin-left: -34px;
+    }
+}
+
+@media(min-width: 800px) {
+
+    .hm-header {
+        padding-top: 0px;
+    }
 
     #hm-container h1 {
         top: 49%;
