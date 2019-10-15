@@ -33,6 +33,10 @@ img {
     content: "";   
 }
 
+.p-20{
+    padding: 20px;
+}
+
 /* MEDIUM SIZE SCREENS */
 @media(min-width: 540px){
     .container {

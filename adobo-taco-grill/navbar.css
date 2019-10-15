@@ -93,6 +93,7 @@ nav li {
     margin: 10px;
     font-family: 'Grenze', serif;
     font-size: 23px;
+    padding-bottom: 4px;
 }
 
 nav li:first-child {

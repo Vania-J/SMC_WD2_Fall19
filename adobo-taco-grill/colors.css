@@ -1,26 +1,29 @@
-.purple {
-    background-color: rgb(119, 33, 141);
+.teal {
+    background-color:#187d71 ;
 }
 
-.red {
-    background-color: rgb(245, 109, 91);
+.darkteal {
+    background-color:#165b5b;
 }
 
-.green {
-    background-color: rgb(74, 165, 55);
+
+
+.lightteal {
+    background-color: #56b8ac;
 }
 
-.yellow {
-    background-color: rgb(216, 231, 83);
+.offwhite{
+    background-color: #fffbf4;
 }
 
-.blue {
-    background-color: rgb(69, 117, 221);
+.lightbeige{
+    background-color:  #fef0d7;
 }
 
 .lightorange{
     background-color: #fed9bb;
 }
+
 
 .orange{
     background-color:  #e9784b;

@@ -25,8 +25,8 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background: (255, 255, 255, 0.3);
 }
-
 
 main {
     padding-top: 25px;
@@ -41,10 +41,10 @@ header {
     padding-top: 30px;
 }
 
-.block{
-    display: block;
-    background-color: white;
+.p-10{
+    padding-top: 10px;
 }
+
 
 #hm-container h1 {
     text-align: center;
@@ -52,6 +52,21 @@ header {
     text-shadow: 2px 2px 4px #393232;
     font-family: 'Grenze', serif;
     font-size: 40px;
+    
+}
+
+#hm-card{
+    padding: 15px;
+    width: 189px;
+    display: block;
+    margin: auto;
+    border: 8px double #e9784b;
+    text-align: center;
+    color: #165b5b;
+}
+
+#hm-card h4{
+   
 }
 
 #hm-content-buttons {
@@ -61,7 +76,7 @@ header {
     position: absolute;
     top: 65%;
     left: 40%;
-    margin-top: -70px;
+    margin-top: 6px;
     margin-left: -70px;
 
 }
@@ -70,9 +85,9 @@ header {
 .button {
     vertical-align: middle;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: #35766e;
-    opacity: 0.9;
+    /*opacity: 0.9;*/
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -110,23 +125,31 @@ header {
     right: 0;
 }
 
-#hm-content-buttons a{
+#hm-content-buttons a {
     text-decoration: none;
     color: #FFFFFF;
 }
 
-footer h2{
-    color: #e9784b; 
+footer {
+    padding: 10px;
+    height:50px;
+    background-color:#165b5b;
+  }
+
+
+footer h2 {
+    color: #e9784b;
     display: inline-block;
+    font-size: 25px;
 }
 
-footer ul{
-    display: inline-block;
+footer ul {
+    display: inline;
     width: 50%;
 }
 
-footer ul img{
-    width: 13%;
+footer ul img {
+    width: 30px;
     height: auto;
     display: inline-block;
     padding: 0px 5px;
@@ -136,65 +159,17 @@ footer ul img{
 
 @media(min-width: 540px) {
 
-    .button {
-        vertical-align: middle;
-        display: inline-block;
-        border-radius: 10px;
-        background-color: #35766e;
-        opacity: 0.9;
-        border: none;
-        color: #FFFFFF;
-        text-align: center;
-        padding: 20px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 5px;
-        font-family: 'Asap', sans-serif;
-        font-size: 20px;
+    #hm-card{
+        width: 310px;
     }
-
-    .button span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
+   
+    footer ul img {
+       
     }
-
-    .button span:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-
-    .button:hover span {
-        padding-right: 25px;
-    }
-
-    .button:hover span:after {
-        opacity: 1;
-        right: 0;
-    }
-
-    #hm-container h1 {
-        top: 49%;
-        left: 51%;
-    }
-
-    #hm-content-buttons {
-        left: 48%;
-    }
-
-    footer ul img{
-        width: 7%;
-        }
 
 }
 
-@media(min-width: 800px) {
+@media(min-width: 740px) {
 
     #hm-container h1 {
         top: 49%;
@@ -202,36 +177,44 @@ footer ul img{
     }
 
     #hm-content-buttons {
-        left: 48%;
+        position: static;
+        top:0px;
+        left: 0px;
+        margin-left: 69px;
+        display: inline;
     }
 
-    footer ul img{
-        width: 7%;
-        }
+    .button{
+        margin-top:100px;
+    }
+
+    footer ul img {
+    
+    }
 
 }
 
 /*-----------------HOME END---------------------------------------------------------*/
 
 /*-----------------MENU BEGINNING---------------------------------------------------------*/
-h1{
+h1 {
     text-align: center;
     font-family: 'Grenze', serif;
     font-size: 40px;
     color: #187d71;
 }
 
-h2{
+h2 {
     font-family: 'Asap', sans-serif;
     font-size: 27px;
 }
 
-h3{
+h3 {
     font-family: 'Asap', sans-serif;
     font-size: 20px;
 }
 
-.p-15{
+.p-15 {
     margin: 20px;
 
 }
@@ -242,38 +225,52 @@ table {
     display: block;
     margin-left: 20px;
     margin-bottom: 50px;
-  }
-  
-  th, td {
+}
+
+th,
+td {
     text-align: left;
     padding: 8px;
     font-family: 'Asap', sans-serif;
-  }
-  
-  tr:nth-child(even){background-color: #f2f2f2}
-  
-  th {
+}
+
+tr:nth-child(even) {
+    background-color: #e5f6f7
+}
+
+th {
     background-color: #56b8ac;
     color: white;
     text-align: center;
-  }
+}
 
-.item-card{
-    box-shadow: 0 4px 16px 0 rgba(0,0,0,.18);
-    height:474px;
-    width:291px;
+.item-card {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .18);
+    height: 474px;
+    width: 291px;
     vertical-align: middle;
     margin: 20px;
     padding: 20px;
 }
 
-.item-card img{
+
+.drink-item-card {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .18);
+    height: 474px;
+    width: 291px;
+    vertical-align: middle;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.item-card img {
     width: 100%;
     height: 240px;
     padding: 0px;
 }
 
-.item-card p{
+.item-card p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
 }
@@ -287,68 +284,116 @@ table {
     border: none;
     cursor: pointer;
     width: 50%;
-  }
-  
-  .dropdown {
+}
+
+.dropdown {
     position: relative;
     float: left;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     right: 0;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    left:0;
-  }
-  
-  .dropdown-content li {
+    left: 0;
+}
+
+.dropdown-content li {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     font-family: 'Asap', sans-serif;
-  }
-  
-  .dropdown-content li:hover {background-color: #f1f1f1;}
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown-content li:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
+}
+
+.dropdown:hover .dropbtn {
     background-color: #439b91;
-  }
+}
 
-  .dropbtn img{
-      width: 20%;   
-      height: auto;
-  }
-
-  .item-card button a{
-    text-decoration: none;
-    color: #FFFFFF;
-  }
-
-#dd-gif{
+.dropbtn img {
+    width: 20%;
     height: auto;
 }
 
-.item-card .button{
+.item-card button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#dd-gif {
+    height: auto;
+}
+
+.item-card .button {
     background-color: #56b8ac;
 }
 
+.drinkcontainer {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #56b8ac;
+  }
+  
+  .drinkcontainer:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .text ul li{
+    list-style-type:none;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+
+
 @media(min-width: 540px) {
-    table{
+    table {
         display: table;
     }
 }
 
-@media(min-width: 800px) {
-    table{
+@media(min-width: 760px) {
+    table {
         display: table;
     }
 }
@@ -358,25 +403,76 @@ table {
 
 /*-----------------LOCATION BEGINNING---------------------------------------------------------*/
 
-.loc-content p,h1,h2{
+.loc-content p,
+h1,
+h2 {
     margin-left: 20px;
 }
 
-iframe{
+iframe {
     margin-top: 20px;
-    margin-left: 20px;                      
+    margin-bottom: 20px;
     width: 400px;
     height: 300px;
 }
 
 @media(min-width: 540px) {
-    iframe{
-        width:600px;
-        height:450px;
+    iframe {
+        width: 600px;
+        height: 450px;
     }
 
 }
+
 /*-----------------LOCATION END---------------------------------------------------------*/
+
+/*-----------------ABOUT BEGINNING---------------------------------------------------------*/
+
+.ab-h1 {
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+.ab-p {
+    padding: 20px;
+    text-align: justify;
+    display: block;
+    margin: auto;
+}
+
+hr {
+    border-width: 5px;
+    border-color: #e9784b;
+}
+
+
+@media(min-width: 540px) {
+
+    #ab-img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+
+}
+
+@media(min-width: 760px) {
+
+    #ab-img {
+        display: block;
+        margin: auto;
+    }
+
+    .ab-p {
+        column-count: 2;
+    }
+
+}
+
+/*-----------------ABOUT END---------------------------------------------------------*/
+
 
 /*-----------------CONTACT BEGINNING---------------------------------------------------------*/
 
@@ -396,50 +492,46 @@ iframe{
 
 
 body {
-    font-family:'Asap', sans-serif;
+    font-family: 'Asap', sans-serif;
     box-sizing: border-box;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #e9784b;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e9784b;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #439b91;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: #439b91;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color:#439b91;
+    background-color: #439b91;
 }
 
 .form-container {
-  border-radius: 5px;
-  background-color:#f3f0ed;
-  padding: 20px;
-  margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #f3f0ed;
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
-.form-container h3{
+.form-container h3 {
     text-align: center;
 }
 
 
 /*-----------------CONTACT END---------------------------------------------------------*/
-
-
-
-
-
-
