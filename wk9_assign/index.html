@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WD-TesT</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div>
+                <button id="headerButton">Click Me</button>
+            </div>
+
+            <div id="navHeader">
+                <h1>It's Spooky Season!!</h1>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+      
+
+        <div class="pb-20" id="sec-1">
+            <div>
+                <button id="pargrhButton">Click Me</button>
+            </div>
+
+            <h2> De Apocalypsi Gorger</h2>
+
+            <p id="p-1">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
+                animata
+                corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor
+                dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil
+                vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu
+                zomby.
+                The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi
+                eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror.De
+                apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil
+                stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket
+                bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere
+                carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead
+                zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.ssCum horribilem walking dead
+                resurgere de crazed sepulcris creaturis, zombie sicut de grave feeding iride et serpens. Pestilentia,
+                shaun ofthe dead scythe animated corpses ipsa screams. Pestilentia est plague haec decaying ambulabat
+                mortuos. Sicut zeder apathetic malus voodoo. Aenean a dolor plan et terror soulless vulnerum contagium
+                accedunt, mortui iam vivam unlife. Qui tardius moveri, brid eof reanimator sed in magna copia sint
+                terribiles undeath legionis. Alii missing oculis aliorum sicut serpere crabs nostram. Putridi braindead
+                odores kill and infect, aere implent left four dead.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="pb-20" id="sec-2">
+            <div>
+                <button id="img-visibility">Click Me</button>
+            </div>
+
+            <h2>Terror Soulless Vulnerum</h2>
+            <img src="kids-knocking.jpg" alt="kids knocking on door" id="kids1">
+            <img src="kids-screaming.jpg" alt="kids screaming with costume" id="kids2">
+        </div>
+
+        <hr>
+
+       
+    </main>
+
+    <footer>
+    </footer>
+
+    <script>
+//Beginning of Header Button
+        document.getElementById("headerButton").addEventListener("click", function () {
+
+            console.log("submited!");
+            var mainContent = document.getElementById("navHeader").style.color = "rgb(237,144,25)";
+            var mainContent = document.getElementById("navHeader").style.textShadow =
+                "rgb(197,161,217) 10px 20px 60px"
+
+        });
+
+        document.getElementById("navHeader").style.color = "rgb(50, 40, 51)";
+        document.getElementById("navHeader").style.textShadow = "rgb(197,161,217) 2px 2px 4px";
+//End of Header Button
+
+//Beginning of Paragragh Button
+        document.getElementById("pargrhButton").addEventListener("click", function () {
+
+            console.log("submited!");
+            var mainContent = document.getElementById("p-1").style.columnCount = "3";
+
+        });
+
+        document.getElementById("p-1").style.columnCount = "2";
+//End of Paragragh Button
+
+//Beginning of Visibility Button
+        document.getElementById("img-visibility").addEventListener("click", function () {
+
+            console.log("submited!");
+            var mainContent = document.getElementById("kids2").style.visibility = "visible";
+            var mainContent = document.getElementById("kids1").style.visibility = "hidden";
+
+        });
+
+        document.getElementById("kids2").style.visibility = "hidden";
+        document.getElementById("kids1").style.visibility = "visible";
+
+//End of Visibility Button
+
+
+
+
+
+
+
+        alert("Happy Halloween!!");
+    </script>
+
+</body>
+
+</html>
