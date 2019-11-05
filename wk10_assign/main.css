@@ -76,6 +76,59 @@ nav a:hover {
 
 /*----------------------Main Begins-----------------------------*/
 
+.main-content-container {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #5e9797;
+    border-radius: 5px;
+    border: solid 2px rgb(203, 236, 44);
+}
 
+#landing_pg h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffa697;
+    padding: 45px;
+    padding-left: 65px;
+    font-family: 'Staatliches', cursive;
+}
+
+form {
+    padding: 0px 65px;
+}
+
+form h2 {
+    color: rgb(203, 236, 44);
+    font-family: 'Sanchez', serif;
+
+}
+
+form select {
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    font-family: 'Sanchez', serif;
+    font-size: 16px;
+    padding: 20px;
+
+}
+
+button {
+    margin: auto;
+    margin-top: auto;
+    display: block;
+    width: 100px;
+    border-radius: 5px;
+    height: 60px;
+    padding: 20px;
+    margin-top: 70px;
+    background-color: #ffa697;
+    font-family: 'Sanchez', serif;
+    font-size: 16px;
+}
 
 /*----------------------Main Ends-----------------------------*/
