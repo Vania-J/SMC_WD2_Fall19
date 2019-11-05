@@ -35,14 +35,63 @@
 
 
     <main>
+        <div class="main-content-container">
+            <div id="landing_pg">
+
+                <h1>Your Library</h1>
+
+                <form action="" method="GET">
+                    <h2>Artist</h2>
+                    <select id="make">
+                        <option value="Tom">Tom Misch</option>
+                        <option value="Jorja">Jorja Smith</option>
+                        <option value="Kings">Kings Kaleidoscopoe</option>
+                    </select>
+
+                    <h2>Songs</h2>
+                    <select id="model">
+                    </select>
+
+                </form>
+
+                <button>Play</button>
+
+            </div>
+        </div>
 
     </main>
 
 
     <script>
 
+var makeSelect = document.getElementById('make');
+            var modelSelect = document.getElementById('model');
+
+            makeSelect.addEventListener('change', function () {
+                console.log(makeSelect.value);
+
+                if (makeSelect.value === 'Tom') {
+                    modelSelect.innerHTML = '<option value="Crazy">Crazy Dream</option>\
+                                         <option value="Feeling">Feeling</option>\
+                                         <option value="Sunshine">Sunshine</option>';
+                }
+
+                if (makeSelect.value === 'Jorja') {
+                    modelSelect.innerHTML = '<option value="Honest"> Be Honest</option>\
+                                         <option value="Blue">Blue Lights</option>\
+                                         <option value="LMD">Let Me Down</option>';
+                }
+
+                if (makeSelect.value === 'Kings') {
+                    modelSelect.innerHTML = '<option value="TBB"> The Beauty Between</option>\
+                                         <option value="HOMY"> Hero Over My Head</option>\
+                                         <option value="Safe"> Safe </option>';
+                }
+            })
+
+
         var image2URL = /*"cancel-x-icon.jpg"*/
-        "https://www.bing.com/th?id=OIP.3Xu8LjmNm_vyH2fsUE6WawAAAA&pid=Api&rs=1";
+            "https://www.bing.com/th?id=OIP.3Xu8LjmNm_vyH2fsUE6WawAAAA&pid=Api&rs=1";
 
         var image2Alt = "Closing Menu X Icon"
         var switchingImage = document.getElementById("imageToSwitch");
@@ -63,7 +112,6 @@
             }
 
         })
-        
     </script>
 </body>
 
