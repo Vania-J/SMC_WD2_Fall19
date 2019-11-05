@@ -14,8 +14,18 @@ header h1 {
     font-family: 'Staatliches', cursive;
     font-size: 50px;
     color: #5e9797;
+    display: inline-block;
+    padding-left: 10px;
 }
 
+#music-note{
+    width: 80px;
+}
+
+.al-center{
+    text-align: center;
+    padding-right: 65px;
+}
 
 #menu-toggle {
     border-bottom: 2px solid #ffa697;
@@ -68,7 +78,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(170, 199, 33);
+    color:  rgb(183, 217, 18);
 }
 
 /*----------------------Header Ends-----------------------------*/
@@ -84,14 +94,14 @@ nav a:hover {
     margin-bottom: 40px;
     background-color: #5e9797;
     border-radius: 5px;
-    border: solid 2px rgb(203, 236, 44);
+    border: solid 2px  rgb(183, 217, 18);
 }
 
 #landing_pg h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
     font-weight: 500;
-    color: #ffa697;
+    color: #e6aea5 /*#ffa697*/;
     padding: 45px;
     padding-left: 65px;
     font-family: 'Staatliches', cursive;
@@ -102,7 +112,7 @@ form {
 }
 
 form h2 {
-    color: rgb(203, 236, 44);
+    color:  rgb(183, 217, 18);
     font-family: 'Sanchez', serif;
 
 }
@@ -126,7 +136,7 @@ button {
     height: 60px;
     padding: 20px;
     margin-top: 70px;
-    background-color: #ffa697;
+    background-color: #e6aea5 /*#ffa697*/;
     font-family: 'Sanchez', serif;
     font-size: 16px;
 }
