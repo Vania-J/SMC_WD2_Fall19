@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Week 10 Assign</title>
+
+    <link rel="stylesheet" href="main.css">
+
 </head>
+
 <body>
     <header>
+        <h1> Music Player</h1>
+        <div id="menu-toggle">
+            <label for="toggler">
+                <img src="hambrgr-menu-icon.png" id="imageToSwitch" alt="hamburger menu icon">
+            </label>
+
+            <input type="checkbox" id="toggler">
+
+            <nav>
+                <ul>
+                    <li><a href="#">Recenty Played</a></li>
+                    <li><a href="#">New Releases</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Podcasts</a></li>
+                </ul>
+            </nav>
+        </div>
 
     </header>
 
@@ -18,7 +40,31 @@
 
 
     <script>
+
+        var image2URL = /*"cancel-x-icon.jpg"*/
+        "https://www.bing.com/th?id=OIP.3Xu8LjmNm_vyH2fsUE6WawAAAA&pid=Api&rs=1";
+
+        var image2Alt = "Closing Menu X Icon"
+        var switchingImage = document.getElementById("imageToSwitch");
+
+        var image1URL = switchingImage.src;
+        var image1Alt = switchingImage.alt;
+
+        document.getElementById('imageToSwitch').addEventListener('click', function () {
+
+            console.log(image1URL);
+
+            if (switchingImage.src === image2URL) {
+                switchingImage.src = image1URL;
+                switchingImage.alt = image1Alt;
+            } else {
+                switchingImage.src = image2URL;
+                switchingImage.alt = image2Alt;
+            }
+
+        })
         
     </script>
 </body>
+
 </html>
