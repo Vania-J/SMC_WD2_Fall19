@@ -1,2 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amaranth&display=swap');
+
+body{
+    margin: 0px;
+    background-color: #ebe3d9;
+}
+
+header{
+    background-color: rgb(206,167,143);
+}
+
+.container{
+    margin: 50px;
+}
+
+h1,h2 {
+    font-family: 'Amaranth', sans-serif;
+    color: #744507;
+}
+
+h1 {
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    font-size:30px;
+}
+
+.container h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-family: 'Beth Ellen', cursive;
+    text-shadow: 2px 2px 9px white;
+    color: rgb(129,16,16);
+}
+
+button[class^="button-"] {
+    border: 1px solid rgb(206,167,143);
+    border-radius: 25%;
+    background-color:rgb(206,167,143);
+    color:#744507;
+    font-family:'Amaranth', sans-serif;
+    padding: 5px 10px;
+    margin: 0px 20px;
+    height: 67px;
+    width: 80px;
+    font-size: 20px;
+}
+
+img {
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+section {
+    box-shadow: 15px 15px 15px  rgb(206,167,143);
+    width: 500px;
+    margin: auto;
+    display: block;
+}
