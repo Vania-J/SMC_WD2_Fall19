@@ -24,9 +24,17 @@
             <img src="fall-leaves.jpg" alt="Autum Leaves">
         </div>
 
+        <hr>
 
+        <h2 class="">.height( ) & .css( )</h2>
+        <button role="button" class="button-height">Height</button>
 
-        <div></div>
+        <div class="tb-container">
+            <div class="text-box">pumpkin</div>
+            <div class="text-box">spice</div>
+            <div class="text-box">everyting!</div>
+        </div>
+
     </div>
 
 
@@ -36,6 +44,18 @@
 
             $('.button-wrap').click(function () {
                 $("img").wrap("<section></section>");
+            });
+
+            $('.button-height').click(function () {
+                $(".text-box").height("150").css({
+                    cursor: 'auto',
+                    backgroundColor: 'rgb(242, 171, 109)',
+                    textTransform: 'uppercase',
+                    fontSize:'35px',
+                    color:'brown'
+
+                });
+                
             });
 
         });
