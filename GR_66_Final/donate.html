@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Edu- Donate</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+
+        <h1 class="logo"><a href="index.html">Star Education</a></h1>
+
+        <nav>
+            <ul class="menu">
+
+                <li class="item"><a href="about.html" id="ab-red">about</a></li>
+                <li class="item"><a href="programs.html" id="pro-orange">programs</a></li>
+                <li class="item"><a href="camps.html" id="camp-green">summer camps</a></li>
+                <li class="item"><a href="involved.html" id="camp-green">get involved</a></li>
+                <li class="item"><a href="donate.html" id="comm-yellow">donate</a></li>
+                <li class="item"><a href="contact.html" id="cont-blue">contact us</a></li>
+
+
+                <li class="toggle"><a href="#"><img src="star-ed-logo-4.png" alt="happy-star"></a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <div class="main-content-container">
+
+
+            <section>
+                <div class="header">
+                    <h1>Help Us Do More</h1>
+                    <p>The expenses of our extended education and enrichment programs are supplemented by philanthropic contributions from individuals, corporations and foundations. 
+                            We invite you to join us in creating a brighter future.  Every gift, large or small, symbolizes your commitment to the well-being of our children and our community. Your gift of any amount makes a difference and we appreciate your consideration.</p>
+                </div>
+
+                <form id="donate_form" action="/action_page.php" method="POST">
+                    
+                    <b>Donate</b><br />
+                    Gift Type:<br />
+                    <input type="radio" value="monthly" name="gift-type" /> <label for="gift-type" id="mon-label">Monthly</label>
+                    <input type="radio" value="one-time" name="gift-type" /> <label
+                        for="gift-type">One-Time</label><br />
+
+                    Monthly Gift Amount 
+                    <div class="amount-options">
+                        <label for="$50" class="amount"><input type="radio" name="amount" value="$50" />$50</label>
+                        <label for="$35" class="amount"><input type="radio" name="amount" value="$25" />$35</label>
+                        <label for="$25" class="amount"><input type="radio" name="amount" value="$25" />$25</label>
+                        <label for="$15" class="amount"><input type="radio" name="amount" value="$15" />$15</label>
+                    </div>
+                    <label for="amount-undefined" class="undefined-amount"><input type="text" name="amount-undefined"
+                            placeholder="0.00" /></label>
+                            
+                        <div class="pay-options">
+                        <button type="button" class="btn btn-give button"> <a href="payment.html"><span class="btn-text">Give By Card</span></a></button>
+
+                        <button type="button" class="btn btn-give button"> <a href="https://www.paypal.com/donate/?token=gq6-rkTkX3FVhFx3BGQajWdGSAzPAUh6VRwqDAWPv43zGAalmSsnnb8UGElx47eyqbTYhm&country.x=US&locale.x=US"><span class="btn-text">Paypal</span></a></button>
+
+                       
+                </form>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="section">
+
+            <ul>
+
+                <a href="https://www.facebook.com/stareducation123" target="_blank"><img src="facebook-64.png"
+                        alt="Facebook" width="48px" height="48px"></a>
+
+                <a href="https://twitter.com/stareducation" target="_blank"><img src="Twitter-64.png" alt="Twitter"
+                        width="48px" height="48px"></a>
+
+                <a href="https://www.instagram.com/stareducationla/" target="_blank"><img src="5301_-_Instagram-64.png"
+                        alt="Instagram" width="48px" height="48px"></a>
+
+                <a href="https://www.youtube.com/user/STAReducation" target="_blank"><img src="youtube-circle.png"
+                        alt="youtube" width="48px" height="48px"></a>
+
+                <a href="https://plus.google.com/100860790944741748745" target="_blank"><img src="_Google_Plus-64.png"
+                        alt="Google +" width="48px" height="48px"></a>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <p>© STAR Inc. All rights reserved. </p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

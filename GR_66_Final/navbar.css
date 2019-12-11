@@ -1,0 +1,165 @@
+
+header{
+    box-shadow: 0px 1px 10px #999;
+    background-color: #e7dcf5;
+}
+
+nav {
+    padding: 5px 20px;
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.item a:hover {
+    color: #24C4BD;
+} 
+
+
+.logo a:hover {
+    text-decoration: none;
+}
+
+.menu li {
+    font-size: 21px;
+    padding: 15px 5px;
+    white-space: nowrap;
+    font-family: 'Itim', cursive;
+    text-decoration: uppercase;
+}
+
+.logo a {
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: /*#9a46b9*/ #ab3af8;
+    text-decoration: none;
+
+    
+}
+
+header h1 {
+    padding: 15px;
+    display: inline-block;
+}
+
+.toggle a {
+    font-size: 20px;
+
+}
+
+/*----------------------------------------------Mobile menu----------------------------- */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle {
+    order: 1;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+
+.item.active {
+    display: inline-block;
+}
+
+.toggle img {
+    width: 35px;
+}
+
+
+
+
+/*---------------------------------------------- Tablet menu----------------------------------------------- */
+
+@media (min-width: 540px) {
+    .item {
+        display: block;
+        width: auto;
+    
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .logo {
+        order: 3;
+    }
+
+    .menu{
+        justify-content: space-around;
+    }
+
+    .menu li {
+        padding: 15px 10px;
+    }
+
+    .menu:nth-child(2) {
+        order: 0;
+    }
+
+    .menu:nth-child(3) {
+        order: 1;
+    }
+
+    .menu:nth-child(4) {
+        order: 2;
+
+
+    }
+
+    .menu:nth-child(5) {
+        order: 4;
+
+
+    }
+
+    
+   
+
+
+
+    /*---------------------------------------------- Desktop menu----------------------------------------------- */
+    @media (min-width: 800px) {
+        
+        .item {
+            display: block;
+            width: auto;
+        }
+
+        .toggle {
+            display: none;
+        }
+
+        .logo {
+            order: 0;
+
+        }
+
+        .item {
+            order: 1;
+        }
+
+        .menu li {
+            padding: 15px 10px;
+        }
+
+}
+}
